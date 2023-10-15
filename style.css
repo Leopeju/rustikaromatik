@@ -1,0 +1,102 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #e8f5e9;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #768f68, #6a9171);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 48px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #a766c1;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.produto {
+  flex: 1;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.produto img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.produto:hover {
+  transform: scale(1.05);
+}
+
+h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.preco {
+  font-weight: bold;
+  font-size: 20px;
+  color: #a766c1;
+}
+
+footer {
+  background: linear-gradient(to right, #768f68, #6a9171);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
